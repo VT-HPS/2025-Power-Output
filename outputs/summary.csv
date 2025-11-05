@@ -1,0 +1,21 @@
+pilot,file,out_csv,torque_median_nm,torque_max_nm
+AndrewR Tests,AndrewR Tests\Andrew 150W.csv,csv\AndrewR Tests\Andrew 150W.csv,8.213314155899958,9.663267110963593
+AndrewR Tests,AndrewR Tests\Andrew 200W.csv,csv\AndrewR Tests\Andrew 200W.csv,15.652839305893526,18.57937830442922
+AndrewR Tests,AndrewR Tests\Andrew 250W.csv,csv\AndrewR Tests\Andrew 250W.csv,20.05964621068391,22.374864185591136
+AndrewR Tests,AndrewR Tests\Andrew Passive.csv,csv\AndrewR Tests\Andrew Passive.csv,9.52902735001759,11.319665414537795
+AshleyW Tests,AshleyW Tests\Ashley 150.csv,csv\AshleyW Tests\Ashley 150.csv,10.46649438429469,17.38624840025162
+AshleyW Tests,AshleyW Tests\Ashley 200.csv,csv\AshleyW Tests\Ashley 200.csv,15.453095972928967,31.099345730027544
+AshleyW Tests,AshleyW Tests\Ashley Passive.csv,csv\AshleyW Tests\Ashley Passive.csv,9.573492622116687,10.464139502549049
+ChaimG Tests,ChaimG Tests\Chaim 150W.csv,csv\ChaimG Tests\Chaim 150W.csv,8.321825392437077,10.141629059195214
+ChaimG Tests,ChaimG Tests\Chaim 200W.csv,csv\ChaimG Tests\Chaim 200W.csv,11.120042587408424,12.641869601305533
+EliasB Tests,EliasB Tests\Elias 150.csv,csv\EliasB Tests\Elias 150.csv,9.248273564160876,9.514912007147311
+EliasB Tests,EliasB Tests\Elias 200.csv,csv\EliasB Tests\Elias 200.csv,11.238265539760283,11.522155710013573
+EliasB Tests,EliasB Tests\Elias passive.csv,csv\EliasB Tests\Elias passive.csv,3.866329148172502,8.366172732460331
+NicoleQ Tests,NicoleQ Tests\Nicole 150.csv,csv\NicoleQ Tests\Nicole 150.csv,9.330519660713524,15.19487351457993
+NicoleQ Tests,NicoleQ Tests\Nicole 200.csv,csv\NicoleQ Tests\Nicole 200.csv,22.03423903842898,35.61879407943578
+NicoleQ Tests,NicoleQ Tests\Nicole passive.csv,csv\NicoleQ Tests\Nicole passive.csv,11.122480396809253,18.147440857506176
+StefanoS Tests,StefanoS Tests\Stefano 150.csv,csv\StefanoS Tests\Stefano 150.csv,10.632421287341499,11.395445484353933
+StefanoS Tests,StefanoS Tests\Stefano 200.csv,csv\StefanoS Tests\Stefano 200.csv,13.570288811740852,15.437400858768187
+WyattD Tests,WyattD Tests\Wyatt D 150.csv,csv\WyattD Tests\Wyatt D 150.csv,6.594898801780763,8.245440884927564
+WyattD Tests,WyattD Tests\Wyatt D 200.csv,csv\WyattD Tests\Wyatt D 200.csv,9.897581599613165,11.319041148586601
+WyattD Tests,WyattD Tests\Wyatt D passive.csv,csv\WyattD Tests\Wyatt D passive.csv,7.056717303888639,7.739656177156176
