@@ -10,11 +10,6 @@ Input data is assumed to have:
 - **Speed** in mph (automatically converted to m/s)
 - **Power** in watts
 
-## Setup
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Configuration
 
@@ -43,6 +38,7 @@ python compute_torque.py
 
 - **CSV files with torque column**: `outputs/csv/<Pilot>/<File>.csv`
 - **Torque vs time plots**: `outputs/plots/<Pilot>/<File>_torque.png`
+- **Comparison plots**: `outputs/comparison_plots/<File>_All_Pilots.png`
 - **Summary**: `outputs/summary.csv`
 
 The script adds these columns to each CSV:
@@ -54,40 +50,4 @@ The script adds these columns to each CSV:
 ## Comparison Plots
 
 To compare multiple pilots on the same graph, use the comparison script:
-
-```bash
-python plot_comparison.py
-```
-
-Edit `comparison_config.json` to define which pilots to compare:
-
-```json
-{
-  "comparisons": [
-    {
-      "title": "150W Test - All Pilots",
-      "test_type": "150",
-      "pilots": [
-        "AndrewR Tests",
-        "AshleyW Tests",
-        "ChaimG Tests"
-      ]
-    },
-    {
-      "title": "Andrew - All Tests",
-      "test_type": "",
-      "pilots": [
-        {"name": "AndrewR Tests", "label": "Andrew 150W"},
-        {"name": "AndrewR Tests", "label": "Andrew 200W"}
-      ]
-    }
-  ]
-}
-```
-
-- **title**: Name for the comparison plot
-- **test_type**: Filter tests by name (e.g., "150", "200", "passive"). Leave empty `""` to manually specify tests.
-- **pilots**: List of pilot names, or objects with `name` and custom `label`
-
-Comparison plots are saved to: `outputs/comparison_plots/`
 
